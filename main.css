@@ -1,13 +1,13 @@
 #title-block {
 	background-color: rgb(150, 190, 255);
-	font-family: sans-serif;
+	font-family: serif;
 
 	padding: 5px;
 }
 
 #block-of-info {
-	background-color: rgb(219, 219, 219);
-	font-family: sans-serif;
+	background-color: rgb(240, 240, 240);
+	font-family: serif;
 
 	padding: 5px;
 }
