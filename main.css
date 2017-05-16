@@ -1,25 +1,57 @@
-#title-block {
-	background-color: rgb(150, 190, 255);
-	font-family: serif;
+.title-block {
+	background: linear-gradient(to right, rgb(150, 190, 255), rgb(240, 240, 240));
 
 	padding: 10px;
+	padding-left: 55px;
 
-	width: 50%;
 	margin: auto;
-	margin-bottom: 10px;
-
-	border: solid 3px;
+	margin-bottom: 3px;
 }
 
-#block-of-info {
-	background-color: rgb(240, 240, 240);
-	font-family: serif;
+.section-block {
+	background-color: rgb(250, 250, 250);
 
 	padding: 10px;
 
-	width: 50%;
-	margin: auto;
+	width: 18.5%;
+	height: 410px;
+	overflow-y: auto;
 	margin-top: 10px;
 
-	border: solid 3px;
+	float: left;
+
+}
+
+.section-text {
+	margin-left: 25px;
+
+	font-size: 0.9em;
+}
+
+.header1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+}
+
+.header2 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+}
+
+.header3 {
+	font-size: .83em;
+	font-weight: bold;
+	margin-top: 1.67em;
+	margin-bottom: 1.67em;
+}
+
+body {
+	background-color: rgb(240, 240, 240);
+
+	font-family: sans-serif;
+	font-size: 15pt;
 }
