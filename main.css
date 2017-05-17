@@ -1,17 +1,18 @@
 .title-block {
-	background-color: rgb(150, 190, 255);
-
 	margin: auto;
 	margin-bottom: 3px;
 }
 
-.contact-info {
-	padding: 10px;
+.my-name {
+	background-color: rgb(250, 250, 250);
+	padding: 30px;
+	padding-bottom: 50px;
 
 	text-align: center;
 }
 
 .nav-menu {
+	background-color: rgb(150, 190, 255);
 	padding: 10px;
 
 	text-align: center;
@@ -21,20 +22,18 @@
 	background-color: rgb(250, 250, 250);
 
 	padding: 10px;
+	padding-top: 30px;
 
 	width: 98.5%;
-	height: 500px;
+	/*height: 500px;*/
 	overflow-y: auto;
-	margin-top: 10px;	
 }
 
 .resume-container {
 	background-color: rgb(250, 250, 250);
 	width: 98.5%;
 
-	margin-top: 10px;
-
-	padding-top: 5px;
+	padding-top: 30px;
 	padding-bottom: 5px;
 	padding-left: 20px;
 }
@@ -55,7 +54,7 @@
 .header2 {
 	font-size: 1.25em;
 	font-weight: bold;
-	margin-top: 1.33em;
+	margin-top: 0.3em;
 	margin-bottom: 1.33em;
 }
 
@@ -87,9 +86,15 @@ body {
 	font-size: 16pt;
 }
 
-#image-of-me {
+#about-me-img {
 	float: left;
 	margin-left: 5px;
 	margin-right: 10px;
 	margin-bottom: 10px;
+}
+
+#contact-me-img {
+	display: block;
+	width: 250;
+	margin: auto;
 }

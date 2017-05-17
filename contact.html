@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me</title>
+	<link href="main.css" type="text/css" rel="stylesheet" />
+
+	<style>
+		table {
+			padding: 7px;
+
+			width: 25%;
+			margin: auto;
+		}
+
+		td label {
+			display: block;
+			text-align: right;
+		}
+	</style>
+
+	<script lang="javascript">
+		function submit_clicked() {
+			var name = document.getElementById("name").value;
+			var company = document.getElementById("company").value;
+			var email = document.getElementById("email").value;
+			var phone = document.getElementById("phone").value;
+			var extra_info = document.getElementById("extra_info").value;
+
+			console.log(name, company, email, phone, extra_info);
+		}
+
+		function cancel_clicked() {
+			document.getElementById("name").value = "";
+			document.getElementById("company").value = "";
+			document.getElementById("email").value = "";
+			document.getElementById("phone").value = "";
+			document.getElementById("extra_info").value = "";
+		}
+	</script>
+</head>
+<body>
+	<!-- This is the name and contact info block -->
+	<div class="title-block">
+		<div class="my-name">
+			<p class="header1">Pierson D'Enbeau</p>
+			<p class="header2">(513) 258-4189 | denbeapc@gmail.com</p>
+		</div>
+		<div class="nav-menu">
+			<a href="index.html">About</a>
+			<a href="resume.html">Resume</a>
+			<a href="achievements.html">Achievements</a>
+			<a href="bootcamp.html">Bootcamp</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</div>
+
+	<div class="section-block" style="display:inline-block;">
+		<div style="width: 45%; float: left;">
+			<img id="contact-me-img" src="\C:\Users\Max-Student\Pictures\contact.jpg" alt="contact-img" width="400">
+		</div>
+		<div style="width: 45%; float: left;">
+			<form method="GET" action="https://github.com/denbeapc">
+				<table>
+					<thead>
+						<tr>
+							<td colspan="2">
+								<label class="header2" style="text-align: center;">Your Contact Info<label>
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><label>Name: </label></td>
+							<td><input id="name" type="text" size="30" placeholder="First and Last Name" style="font-size: 16pt" /></td>
+						</tr>
+						<tr>
+							<td><label>Company: </label></td>
+							<td><input id="company" type="text" size="30" placeholder="Company Name" style="font-size: 16pt" /></td>
+						</tr>
+						<tr>
+							<td><label>Email: </label></td>
+							<td><input id="email" type="text" size="20" placeholder="Email" style="font-size: 16pt" /></td>
+						</tr>
+						<tr>
+							<td><label>Phone: </label></td>
+							<td><input id="phone" type="text" size="15" placeholder="(xxx) xxx-xxxx" style="font-size: 16pt" /></td>
+						</tr>
+						<tr>
+							<td><label>More Info: </label></td>
+							<td><textarea id="extra_info" cols="60" rows="8"></textarea>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align: center;">
+								<button type="button" onclick="submit_clicked()">Submit</button>
+								&nbsp;
+								<button type="button" onclick="cancel_clicked()">Cancel</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
