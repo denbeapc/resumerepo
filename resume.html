@@ -3,13 +3,19 @@
 	<head>
 		<title>Resume</title>
 		<link href="main.css" type="text/css" rel="stylesheet" />
+
+		<script src="http://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet"></link>
+		<script lang="javascript">
+
+		</script>
 	</head>
 	<body>
 		<!-- This is the name and contact info block -->
 		<div class="title-block">
 			<div class="my-name">
 				<p class="header1">Pierson D'Enbeau</p>
-				<p class="header2">(513) 258-4189 | denbeapc@gmail.com</p>
+				<p class="subheader">(513) 258-4189 | denbeapc@gmail.com</p>
 			</div>
 			<div class="nav-menu">
 				<a href="index.html">About</a>
@@ -22,58 +28,86 @@
 
 		<!-- This is the resume info block -->
 		<div class="resume-container">
-			<p class="header2">EDUCATION</p>
-			<div class="section-text">
-				<p>Miami University College of Engineering and Computing
-				<br /><em>Bachelor of Science in Computer Science</em></p>
-			</div>
-		
-			<p class="header2">WORK EXPERIENCE</p>
-			<div class="section-text">
-				<p>Climb Time of Blue Ash
-				<br/><em>Route Setter, Climbing and Safety Instructor, Front Desk Attendant</em></p>
-				<ul>
-					<li>Work with route setters to establish a professional, and enjoyable climbing wall for the clientele</li>
-					<li>Input customers into software database</li>
-					<li>Establish and keep control of a safe climbing space for all clientele</li>
-					<li>Instruct new climbers on the fundamentals of safety, climbing, and fitness</li>
-				</ul>
-			</div>
-		
-			<p class="header2">COMMUNITY AND CAMPUS INVOLVEMENT</p>
-			<div class="section-text">
-				<p>Miami Bouldering
-				<br /><em>Trip Coordinator</em></p>
-				<ul>
-					<li>Established a trip plan for the first three years of the club</li>
-					<li>Coordinate with president and treasurer to allocate funding for trips</li>
-					<li>Worked with president and treasurer to recruit over 100 active members in the first two semesters</li>
-				</ul>
-			</div>
-		
-			<p class="header2">PROJECTS</p>
-			<div class="section-text">
-				<p>Queens Problem
-				<br /><em>Java</em></p>
-				<ul>
-					<li>Utilized a recursive lookup algorithm to, in all cases, find the best outcome</li>
-					<li>Designed and implemented a GUI chess board for placing queens and highlighting tiles for hints, correct and improper queen placements</li>
-					<li>Solves the Queens Problem successfully 100% of the time</li>
-				</ul>
-				<p>Movie Rental Database
-				<br /><em>Java</em></p>
-				<ul>
-					<li>Utilized LinkedList to manage all the databases for the software</li>
-					<li>Design and organize the GUI for most efficient and aesthetically pleasing layout</li>
-					<li>Implement a simple to navigate customer and employee database of movies that are for rent and able to be returned</li>
-				</ul>
-			</div>
-		
-			<p class="header2">SKILLS AND INTERESTS</p>
-			<div class="section-text">
-				<p><strong>Programming Languages Known:</strong> Java, C++, C#, HTML, CSS, JavaScript, SQL
-				<br /><br /><strong>Interests:</strong> Rock climbing, hiking, soccer, video editing, photography, drawing, painting, video gaming, piano</p>
-			</div>
+			<table class="table">
+				<tr>
+					<td>
+						<div>
+							<p class="header3">EDUCATION</p>
+							<div class="section-text">
+								<p>Miami University College of Engineering and Computing
+								<br /><em>Bachelor of Science in Computer Science</em></p>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div>
+							<p class="header3">WORK EXPERIENCE</p>
+							<div class="section-text">
+								<p>Climb Time of Blue Ash
+								<br/><em>Route Setter, Climbing and Safety Instructor, Front Desk Attendant</em></p>
+								<ul>
+									<li>Work with route setters to establish a professional, and enjoyable climbing wall for the clientele</li>
+									<li>Input customers into software database</li>
+									<li>Establish and keep control of a safe climbing space for all clientele</li>
+									<li>Instruct new climbers on the fundamentals of safety, climbing, and fitness</li>
+								</ul>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div>
+							<p class="header3">COMMUNITY AND CAMPUS INVOLVEMENT</p>
+							<div class="section-text">
+								<p>Miami Bouldering
+								<br /><em>Trip Coordinator</em></p>
+								<ul>
+									<li>Established a trip plan for the first three years of the club</li>
+									<li>Coordinate with president and treasurer to allocate funding for trips</li>
+									<li>Worked with president and treasurer to recruit over 100 active members in the first two semesters</li>
+								</ul>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+				<td>
+					<div>
+						<p class="header3">PROJECTS</p>
+						<div class="section-text">
+							<p>Queens Problem
+							<br /><em>Java</em></p>
+							<ul>
+								<li>Utilized a recursive lookup algorithm to, in all cases, find the best outcome</li>
+								<li>Designed and implemented a GUI chess board for placing queens and highlighting tiles for hints, correct and improper queen placements</li>
+								<li>Solves the Queens Problem successfully 100% of the time</li>
+							</ul>
+							<p>Movie Rental Database
+							<br /><em>Java</em></p>
+							<ul>
+								<li>Utilized LinkedList to manage all the databases for the software</li>
+								<li>Design and organize the GUI for most efficient and aesthetically pleasing layout</li>
+								<li>Implement a simple to navigate customer and employee database of movies that are for rent and able to be returned</li>
+							</ul>
+						</div>
+					</div>
+				</td>
+				</tr>
+				<tr>
+					<td>
+						<div>
+							<p class="header3">SKILLS AND INTERESTS</p>
+							<div class="section-text">
+								<p><strong>Programming Languages Known:</strong> Java, C++, C#, HTML, CSS, JavaScript, SQL
+								<br /><br /><strong>Interests:</strong> Rock climbing, hiking, soccer, video editing, photography, drawing, painting, video gaming, piano</p>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
 		</div>
 	</body>
 </html>
