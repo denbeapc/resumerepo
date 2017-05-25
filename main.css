@@ -4,7 +4,7 @@
 }
 
 .my-name {
-	background-image: url("treeline.jpg");
+	background-image: url("/images/treeline.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: bottom center;
